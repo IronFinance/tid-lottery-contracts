@@ -72,11 +72,11 @@ const run: DeployFunction = async (hre) => {
     'Lottery',
     {from: creator, log: true},
     'updateLottoSettings',
-    8,
-    4,
+    35,
+    24,
     [600000, 300000, 100000, 0],
-    parseUnits('1000', 18), // 1M Titan
-    parseUnits('100000', 18) // 100M Titan
+    parseUnits('1000000', 18), // 1M Titan
+    parseUnits('100000000', 18) // 100M Titan
   );
 };
 
